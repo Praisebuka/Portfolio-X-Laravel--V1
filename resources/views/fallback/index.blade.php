@@ -8,7 +8,7 @@ include 'includes/header.blade.php';
             <h1>Hi, I'm A <br>Multi-Disciplinary <u class="line">Backend</u><br> <span class="orange-txt">Designer and </span>  <span class="orange-txt">Developer</span></h1>
 
             <div class="btn-wrapper">
-                <a href="contact">Let's connect</a>
+                <a href="contact.php">Let's connect</a>
                 <a href="https://docs.google.com/document/d/1VMK7d-RsLdNsHNgse-fOMTcvsVgkd_u4/edit?usp=sharing&ouid=107294567138336533708&rtpof=true&sd=true" target="_blank">Check Resume</a>
             </div> 
         </div> 
@@ -99,7 +99,7 @@ include 'includes/header.blade.php';
             </p>
 
             <div class="btn-wrapper">
-                <a href="about">More About Me?</a>
+                <a href="about.php">More About Me?</a>
             </div><br>
         </div>
     </div>

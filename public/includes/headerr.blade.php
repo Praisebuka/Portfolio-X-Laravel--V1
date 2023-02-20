@@ -27,7 +27,7 @@
         <nav class="top-menu-container">
             
             <div class="logo-header">
-                <a href="index.php">
+                <a href="/">
                     <img
                     src="https://cdn.pixabay.com/photo/2017/02/18/19/20/logo-2078018_960_720.png"
                     alt="Portfolio-icon"
@@ -38,13 +38,13 @@
 
             <ul>
                 <li>
-                    <a href="index.php">Home</a>
+                    <a href="/">Home</a>
                 </li>
                 <li>
-                    <a href="about.php">About</a>
+                    <a href="about">About</a>
                 </li>
                 <li>
-                    <a href="contact.php">Contact</a>
+                    <a href="contact">Contact</a>
                 </li>
             </ul>
         </nav>

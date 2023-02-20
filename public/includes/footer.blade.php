@@ -8,7 +8,7 @@
                 title="Portfolio - Logo"
                 />
             <p>
-                This website was created by <a href="index.php">Praisebuka</a>
+                This website was created by <a href="/">Praisebuka</a>
             </p>
         </div>
     </footer>

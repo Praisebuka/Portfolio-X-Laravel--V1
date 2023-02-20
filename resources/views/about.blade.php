@@ -37,7 +37,7 @@ include 'includes/headerr.blade.php';
                 </p><br><br>
 
                 <div class="button">
-                    <a href="contact.php">Care to know more?</a>
+                    <a href="contact">Care to know more?</a>
                 </div>
 
             </div>
