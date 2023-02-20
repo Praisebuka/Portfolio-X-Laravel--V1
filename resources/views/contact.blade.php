@@ -34,9 +34,7 @@ include 'includes/headerr.blade.php';
             </ul>
         </div>
 
-        <form action=" <?php 
-            echo Mage::getUrl('/app/Http/Controllers/ContactIncController.php');
-        ?>" method="get">
+        <form action="" method="get">
             
         <div class="contactForm">
             <h2>Send your request to Praisebuka</h2>
