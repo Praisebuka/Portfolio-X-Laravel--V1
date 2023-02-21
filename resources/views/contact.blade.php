@@ -1,9 +1,9 @@
-<?php
-include 'includes/headerr.blade.php';
 
-?>
+    @extends('layouts.app-x')
 
+    @section('content-x')
 
+    
 <section>
     <div class="container">
         <div class="contactInfo">
@@ -34,7 +34,7 @@ include 'includes/headerr.blade.php';
             </ul>
         </div>
 
-        <form action="" method="get">
+        <form action="includes/contact-inc.blade.php"  method="get">
             
         <div class="contactForm">
             <h2>Send your request to Praisebuka</h2>
@@ -61,7 +61,7 @@ include 'includes/headerr.blade.php';
                 </div>
                 <div class="inputBox w100">
                     <button type="submit" name="submit">
-                        Send
+                       Send 
                     </button>
                 </div>
             </div>
@@ -70,7 +70,4 @@ include 'includes/headerr.blade.php';
     </div>
 </section>
 
-<?php
-include 'includes/footer.blade.php';
-
-?>
+@endsection

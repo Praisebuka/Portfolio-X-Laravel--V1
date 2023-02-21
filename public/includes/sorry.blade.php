@@ -1,10 +1,9 @@
-<?php 
-include 'includes/header.blade.php';
+    
+    @extends('layouts.app')
 
+    @section('content')
 
-?>
-
-    <!-- Meet the team section -->
+    <!-- Apology section -->
     <div class="container-grid-2">
         <div><br>
             <img class="img-team" src="img/about.jpeg" alt="my-photo">
@@ -28,11 +27,4 @@ include 'includes/header.blade.php';
 
 
 
-
-
-
-<?php
-
-include 'includes/footer.blade.php';
-
-?>
+    @endsection

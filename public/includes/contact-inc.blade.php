@@ -1,4 +1,6 @@
 <?Php 
+include '../includes/head.php';
+
         //creating the variables for the contact
 if (isset($_POST['submit'])) {
     $name = trim($_POST['name' ." - ". 'second']);
@@ -19,11 +21,10 @@ if (isset($_POST['submit'])) {
     //............The subject
     //............The message
     mail($myMail, $subject, $message2);
-    return ;
+    return view('sorry');
     
 } else {
-    echo "Sorry Please check your mode of connections and try again!";
-
+    echo  trying($views);
 }
 
 

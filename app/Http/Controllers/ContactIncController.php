@@ -6,9 +6,9 @@ use Illuminate\Http\Request;
 
 class ContactIncController extends Controller
 {
-    public function store()
+    public function index()
     {
-             //creating the variables for the contact
+             //creating the variables for the email-sending
         if (isset($_POST['submit'])){
             $name = trim($_POST['name' ." - ". 'second']);
             $email = trim($_POST['email']);
@@ -32,7 +32,10 @@ class ContactIncController extends Controller
             # Just trying some stuffs to myself from the user using email.
             return view('sorry');
         } else {
-            echo "Sorry Please check your mode of connections and try again!";
+            return view('sorry');
         }
+        
     }
+
+
 }

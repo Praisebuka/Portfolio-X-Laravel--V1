@@ -1,7 +1,8 @@
-<?php 
-include 'includes/header.blade.php';
-?>
-    
+
+    @extends('layouts.app')
+
+    @section('content')
+        
     <!-- Hero background & content on top of hero background -->
     <div id="hero-container">
         <div class="hero-wrapper">
@@ -88,12 +89,12 @@ include 'includes/header.blade.php';
 
             <p>
                 Hi, You're welcome to my portfolio website, 
-                I'm very Creative I think and process my thoughts logically and quickly before the manifestations, 
-                I've been a Backend developer since 2021, It hasn't really been a smooth journey all through,
-                but all thanks still to God almighty, I also think that It'll be of a great deal If I colaborate 
-                with you on that project of yours.           
-                <br>Whether you require distribution or fulfillment, 
-                defined freight forwarding, or a complete supply chain solution, I am here for you!.<br>
+                I'm very Creative I think and process my thoughts logically and quickly before It's manifestations and reality, 
+                I've been a Backend developer since 2021, It hasn't really been a smooth journey all through, even with the <strong>storms</strong>,
+                but all thanks still to God....I'm based in Lagos-State, Nigeria.                          
+                <br><br>Whether you require distribution or fulfillment, 
+                defined freight forwarding, or a complete supply chain solution, I am here for you!!.<br> Smiles in simple terms.....It'll be of a great deal If I colaborate 
+                with you on that project of yours or any gigs at all be it <span class="orange-txt">TECH</span> or <span class="orange-txt">MUSIC</span> related..<br>
                 Thanks for spending couple of minutes of your time here, You can as-well get across to me on any or my
                 socials which I off course made available here.....Do have a Great day AHEAD!!!.
             </p>
@@ -159,7 +160,4 @@ include 'includes/header.blade.php';
       
     </div>
 
-
-<?php 
-include 'includes/footer.blade.php';
-?>
+    @endsection

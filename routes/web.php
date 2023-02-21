@@ -18,12 +18,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+# My main Portfolio routes
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/about', [AboutController::class, 'index']);
 Route::get('/contact', [ContactController::class, 'index']);
 
-Route::post('/contact-inc.blade.php', [ContactIncController::class, 'index']);
+# The Route for apologising as regards the inavailability of the contact functionality.
+Route::get('/sorry.blade.php', [ContactIncController::class, 'index']);
 
 
 # The Fallback link for any route that doesn't exist, instead of out-putting a 404_NotFound.
-Route::fallback(FallbackController::class);
+ Route::fallback(FallbackController::class);
