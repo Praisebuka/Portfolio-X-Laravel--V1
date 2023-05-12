@@ -1,15 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Praisebuka - Personal Website
+    </title>
+    <link
+        rel="stylesheet"
+        href="style.css"
+    />
+    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap"
+        rel="stylesheet"
+    />
+    <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+</head>
 
-    @extends('layouts.app')
+<body>
+    <header>
+        <!-- Navigation -->
+        <nav class="top-menu-container">
+            
+            <div class="logo-header">
+            
+                <a href="/">
+                    
+                    <img
+                    src="https://cdn.pixabay.com/photo/2017/02/18/19/20/logo-2078018_960_720.png"
+                    alt="Portfolio-icon"
+                    title="Portfolio - Logo"
+                    />
+                </a>
 
-    @section('content')
+                </div>
+
+            <ul> 
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="./about.html">About</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
         
     <!-- Hero background & content on top of hero background -->
     <div id="hero-container">
         <div class="hero-wrapper">
-            <h1>Hi, I'm A <br>Multi-Disciplinary <u class="line">Backend</u><br> <span class="orange-txt">Designer and </span>  <span class="orange-txt">Developer</span></h1>
+            <h1 class="orange-txt"> Hi, I'm A <br>Multi-Disciplinary <u class="line">Backend</u><br> <span class="check">Designer</span> and Developer</h1>
 
             <div class="btn-wrapper">
-                <a href="contact">Let's connect</a>
+                <a href="./contact.html">Let's connect</a>
                 <a href="https://docs.google.com/document/d/1VMK7d-RsLdNsHNgse-fOMTcvsVgkd_u4/edit?usp=sharing&ouid=107294567138336533708&rtpof=true&sd=true" target="_blank">Check Resume</a>
             </div> 
         </div> 
@@ -100,7 +153,7 @@
             </p>
 
             <div class="btn-wrapper">
-                <a href="about">More About Me?</a>
+                <a href="./about.html">More About Me?</a>
             </div><br>
         </div>
     </div>
@@ -160,4 +213,19 @@
       
     </div>
 
-    @endsection
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-footer">
+            <img
+                src="https://cdn.pixabay.com/photo/2017/02/18/19/20/logo-2078018_960_720.png"
+                alt="Portfolio-icon"
+                title="Portfolio - Logo"
+                />
+            <p>
+                This website was created by <a href="/">Praisebuka</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

