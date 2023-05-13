@@ -176,11 +176,14 @@ p {
 @media (max-width : 450px) {
     .btn-wrapper a {
         font-size: 13px;
+        top: -150%;
+
     }
 }
-@media (max-width : 360px) {
+@media (max-width : 380px) {
     .btn-wrapper a {
         font-size: 11px;
+
     }
 }
 
