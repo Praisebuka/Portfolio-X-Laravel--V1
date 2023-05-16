@@ -48,14 +48,14 @@ p {
 
 /* Logo Website */
 .logo-header img {
-    width: 35px;
+    width: 50px;
 }
 
 .logo-header {
     display: block;
     position: absolute;
-    left: 60px;
-    top: 25px;
+    left: 80px;
+    top: 15px;
 }
 
 /* Top menu navigation */
@@ -91,7 +91,7 @@ p {
 
 /* Landing section */
 #hero-container {
-    background: url('img/Head.jpg') no-repeat center center fixed;
+    background: url('img/check2.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -110,13 +110,13 @@ p {
 
 .line {
     text-decoration: underline;
-    text-decoration-color: #f2f2f2;
+    text-decoration-color: #ff6500;
 /*    font-style: italic;  */
 }
 
 .check {
     text-decoration: line-through;
-    text-decoration-color: #f2f2f2;
+    text-decoration-color: #ff6500;
 }
 
 .orange-txt {
@@ -177,13 +177,21 @@ p {
     .btn-wrapper a {
         font-size: 13px;
         top: -150%;
-
     }
+
+    .logo-header {
+            left: 40px;
+            top: 25px;
+        }
+
+    .logo-header img {
+        width: 35px;
+    }
+
 }
 @media (max-width : 380px) {
     .btn-wrapper a {
         font-size: 11px;
-
     }
 }
 

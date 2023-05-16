@@ -458,6 +458,10 @@ section::before {
     .container .contactForm .formBox .inputBox.w50 {
         width: 100%;
     }
+
+    .container .contactForm .formBox .inputBox button {
+        text-align: center;
+    }
 }
 
 /* End of making it responsive */
@@ -490,14 +494,14 @@ section::before {
 
 /* Logo Website */
 .logo-header img {
-    width: 35px;
+    width: 50px;
 }
 
 .logo-header {
     display: block;
     position: absolute;
-    left: 60px;
-    top: 25px;
+    left: 80px;
+    top: 15px;
 }
 
 /* Top menu navigation */
@@ -530,6 +534,19 @@ section::before {
         margin: 10px;
     }
 
+}
+
+
+@media (max-width : 450px) {
+    .logo-header {
+        left: 40px;
+        top: 25px;
+
+    }
+
+    .logo-header img {
+    width: 35px;
+    }
 }
 
 /* Styling footer */
