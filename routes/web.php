@@ -19,9 +19,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 # My main Portfolio routes
-Route::get('/', [HomeController::class, 'index']);
+Route::get( '/', [HomeController::class, 'index']);
 Route::get('/about', [AboutController::class, 'index']);
 Route::get('/contact', [ContactController::class, 'index']);
+
 
 # The Route for apologising as regards the inavailability of the contact functionality.
 Route::get('/sorry.blade.php', [ContactIncController::class, 'index']);
