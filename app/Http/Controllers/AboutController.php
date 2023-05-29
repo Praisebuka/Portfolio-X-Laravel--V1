@@ -8,7 +8,7 @@ class AboutController extends Controller
 {
     public function index()
     {
-        # Calling the About page of my portfolio with this function
+        # Calling the About page of my portfolio with this function 
         return view('about');
     }
 }
